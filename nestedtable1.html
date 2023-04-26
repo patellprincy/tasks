@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" cellspacing="5" cellpadding="5">
+        <tr>
+            <td>Column 1</td>
+            <td colspan="2" align="center">Column 2</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td colspan="4" align="center">Colspan Column</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td rowspan="3">Rowspan Cell</td>
+            <td colspan="3" align="center">Cell 2</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td>
+                <table border="2" cellspacing="5" cellpadding="5">
+                    <tr>
+                        <td>inner column heading 1</td>
+                        <td>inner column heading 2</td>
+                        <!-- <td></td> -->
+                    </tr>
+                    <tr>
+                        <td rowspan="2">inner data cell 1</td>
+                        <!-- <td></td> -->
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="2" cellspacing="5" cellpadding="5">
+                                <tr>
+                                    <td>inner most column heading 1</td>
+                                    <td>inner most column heading 2</td>
+                                </tr>
+                                <tr>
+                                    <td>inner most data cell 1</td>
+                                    <td>inner most data cell 2</td>
+                                </tr>
+                                
+                                    
+                                </tr>
+                            </table>
+                        </td>
+                        <!-- <td></td> -->
+                        <!-- <td></td> -->
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
